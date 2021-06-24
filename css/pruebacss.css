@@ -186,6 +186,46 @@ main.img__fila {
     transform: scale(1);
     opacity: 1; }
 
+.titulo {
+  background-color: white;
+  width: 155px;
+  margin: 0px auto;
+  font-family: sans-serif;
+  font-size: 1.5em;
+  color: orangered;
+  padding-top: 5vh; }
+
+.parrafo {
+  background-color: white;
+  width: 120vh;
+  margin: 0px auto;
+  font-family: sans-serif;
+  font-size: 1.6em;
+  color: black;
+  padding-top: 5vh; }
+
+@media only screen and (max-width: 1060px) {
+  .parrafo {
+    width: 80vh; } }
+
+@media only screen and (max-width: 750px) {
+  .parrafo {
+    width: 50vh; } }
+
+@media only screen and (max-width: 380px) {
+  .parrafo {
+    width: 27vh; } }
+
+.clase {
+  width: 50%;
+  height: 35%;
+  margin-left: 20px; }
+
+.img__parrafo {
+  color: black;
+  font-family: sans-serif;
+  width: 600px; }
+
 footer {
   margin: 20px 0 0 0;
   justify-content: space-between;
