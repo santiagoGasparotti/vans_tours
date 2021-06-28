@@ -242,13 +242,13 @@ main.img__fila {
         transition: all .0s;
         right: 5%;
         top: 20%;
-        
+
 
         h2 {
-            color:black;
+            color: black;
             background-color: #E87132;
             padding: 6px;
-           
+
         }
     }
 
@@ -267,34 +267,34 @@ main.img__fila {
 
 .parrafo {
     background-color: white;
-    width: 120vh;
-    margin: 0px auto;
+    // width: 120vh;
+    // margin: 0px auto;
     font-family: sans-serif;
     font-size: 1.6em;
     color: black;
     padding-top: 5vh;
 }
 
-@media only screen and (max-width:1060px) {
-    .parrafo {
-        width: 80vh;
+// @media only screen and (max-width:1060px) {
+//     .parrafo {
+//         width: 80vh;
 
-    }
-}
+//     }
+// }
 
-@media only screen and (max-width:750px) {
-    .parrafo {
-        width: 50vh;
+// @media only screen and (max-width:750px) {
+//     .parrafo {
+//         width: 50vh;
 
-    }
-}
+//     }
+// }
 
-@media only screen and (max-width:380px) {
-    .parrafo {
-        width: 25vh;
-
-    }
-}
+// @media only screen and (max-width:380px) {
+//     .parrafo {
+//         width: 27vh;
+// margin: 10px;
+//     }
+// }
 
 .clase {
     width: 50%;
@@ -419,44 +419,81 @@ main.img__fila {
     -moz-animation: fadeIn 8s;
     -o-animation: fadeIn 8s;
     -ms-animation: fadeIn 8s;
-  }
-  @keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-  }
-  
-  @-moz-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-  }
-  
-  @-webkit-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-  }
-  
-  @-o-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-  }
-  
-  @-ms-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-  }
+}
 
-  .animate__animated.animate__backInDown {
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.animate__animated.animate__backInDown {
     --animate-duration: 1.5s;
-  }
+}
 
-  .animate__animated.animate__backInUp{
+.animate__animated.animate__backInUp {
     --animate-duration: 3s;
-  }
+}
 
-  .animate__animated.animate__zoomInLeft{
+.animate__animated.animate__zoomInLeft {
     --animate-duration: 1.5s;
-  }
+}
 
-  .animate__animated.animate__fadeInLeft{
+.animate__animated.animate__fadeInLeft {
     --animate-duration: 3.5s;
+}
+
+@media only screen and (max-width: 576px) {
+    .inicio {
+      height: 100vh;
+    }
+  
+    .mobilePicture {
+      object-fit: cover;
+      height: 100vh;
+    }
   }
