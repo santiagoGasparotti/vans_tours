@@ -267,34 +267,12 @@ main.img__fila {
 
 .parrafo {
     background-color: white;
-    // width: 120vh;
-    // margin: 0px auto;
     font-family: sans-serif;
     font-size: 1.6em;
     color: black;
     padding-top: 5vh;
 }
 
-// @media only screen and (max-width:1060px) {
-//     .parrafo {
-//         width: 80vh;
-
-//     }
-// }
-
-// @media only screen and (max-width:750px) {
-//     .parrafo {
-//         width: 50vh;
-
-//     }
-// }
-
-// @media only screen and (max-width:380px) {
-//     .parrafo {
-//         width: 27vh;
-// margin: 10px;
-//     }
-// }
 
 .clase {
     width: 50%;
@@ -496,4 +474,8 @@ main.img__fila {
       object-fit: cover;
       height: 100vh;
     }
+  }
+
+  .textFooter{
+      
   }
