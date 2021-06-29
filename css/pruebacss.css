@@ -139,16 +139,16 @@ main.img__fila {
     bottom: 10px; }
   .c-img:hover:before, .c-img:hover:after {
     left: 15px; }
-  .c-img .txt {
+  .c-img .txtHover {
     text-align: center;
     position: absolute;
     transition: all .3s;
     transform: scale(1.5);
     opacity: 0; }
-    .c-img .txt h2 {
+    .c-img .txtHover h2 {
       color: wheat;
       padding-top: 80px; }
-  .c-img:hover .txt {
+  .c-img:hover .txtHover {
     transform: scale(1);
     opacity: 1; }
 
@@ -352,11 +352,16 @@ main.img__fila {
   font-family: sans-serif; }
 
 .background {
-  background-color: orange; }
+  background-color: #FFC107; }
 
 .width100 {
   width: 100%;
   margin: 9.7px 0; }
+
+.pServicios {
+  font-family: sans-serif;
+  color: black;
+  font-size: 1.3em; }
 
 footer {
   margin: 20px 0 0 0;
