@@ -348,6 +348,13 @@ main.img__fila {
     object-fit: cover;
     height: 100vh; } }
 
+.textFooter {
+  font-family: sans-serif;
+  margin-right: 50px; }
+
+.background {
+  background-color: orange; }
+
 footer {
   margin: 20px 0 0 0;
   justify-content: space-between;
@@ -383,30 +390,6 @@ body#index {
 ul li {
   font-size: 1.3em; }
 
-/* GRID */
-/* .grid-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 0.4fr 2.3fr 0.3fr;
-    gap: 0px 0px;
-    grid-template-areas:
-        "header header header header"
-        "main main main main"
-        "footer footer footer footer";
-}
-
-.header {
-    grid-area: header;
-}
-
-.main {
-    grid-area: main;
-}
-
-.footer {
-    grid-area: footer;
-} */
-/* ANIMACION BARRA DE NAVEGACION */
 /* BackPulse */
 @-webkit-keyframes hvr-back-pulse {
   50% {
@@ -519,84 +502,6 @@ ul li {
 .hvr-underline-from-left:active:before {
   right: 0; }
 
-/* ESTILO MENU CON SUBMENU */
-/* header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 10px 0;
-    background-color: dimgrey;
-    height: 10vh;
-}
-
-header img {
-    margin-left: 5px;
-}
-
-header nav {
-    display: flex;
-}
-
-ul.ul_padre {
-    list-style: none;
-    font-size: 0;
-    display: flex;
-    align-items: center;
-}
-
-.ul_padre li {
-    display: flex;
-    position: relative;
-    font-size: 1rem;
-    width: 77.6%;
-    justify-content: space-between;
-    padding: 1rem;
-    align-items: center;
-    margin-right: 25px;
-    border: solid 1px black;
-}
-
-.ul_padre li.hover {
-    background-color: brown;
-    box-shadow: 3px 3px greenyellow;
-}
-
-ul {
-    list-style: none;
-    font-size: 0;
-}
-
-li {
-    display: inline-block;
-    width: 25%;
-    position: relative;
-    font-size: 14px;
-}
-
-ul.ul_padre ul {
-    position: absolute;
-    display: none;
-}
-
-ul ul li.subM {
-    display: block;
-    padding-top: 5px;
-    border: none;
-}
-
-ul li:hover ul {
-    display: block;
-    top: 3.1rem;
-} */
-/* CONTENIDO PRINCIPAL */
-/* responsive */
-/* @media only screen and (min-width: 770px){
-    main {
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows:  repeat(2, auto);
-    }
-    
-} */
 .float {
   position: fixed;
   width: 60px;
