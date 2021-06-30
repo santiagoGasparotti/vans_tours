@@ -74,6 +74,18 @@
         <form name="contact"  method="post" data-netlify="true">
             <div class="row ">
                 <div class=" col-md-6">
+                    <p>
+                    <label>nombre: <input type="text" name="name" /></label>
+                    </p>
+                    <p>
+                        <label>your email: <input type="email" name="email" /></label>
+                    </p>
+                    <p>
+                        <label>your role: <select name="role[]" multiple> 
+                            <option value="leader">Leader</option>
+                            <option value="folowe">Followe</option>
+                        </select></label>
+                    </p>
                     <label for="nombre">Nombre</label><br>
                     <input class="width100" type="text" name="nombre" placeholder="Ingresá tu Nombre y Apellido"><br>
                     <label for="email">E-mail</label><br>
