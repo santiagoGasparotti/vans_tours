@@ -1,2 +1,0 @@
-errorDocument 404 http
-https://santiagogasparotti.github.io/vans_tours/proyectoWeb/404.php
