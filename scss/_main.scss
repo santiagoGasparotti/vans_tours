@@ -47,12 +47,21 @@ h2 {
     font-family: letra;
     font-size: 1.5rem;
     margin-left: 20px;
+    
+}
+
+.titleh2{
+    font-family: letra;
+    font-size: 3rem;
+    margin-left: 20px;
+    background-color: #E87132
 }
 
 h3 {
     font-family: letra;
     font-size: 1.5rem;
     margin-left: 10px;
+    
 }
 
 h4 {
@@ -187,7 +196,7 @@ main.img__fila {
         transform: scale(1.5);
         opacity: 0;
 
-        h2 {
+        h3 {
             color: wheat;
             padding-top: 80px;
         }
@@ -242,9 +251,10 @@ main.img__fila {
         transition: all .0s;
         right: 5%;
         top: 20%;
+        
 
 
-        h2 {
+        h3 {
             color: black;
             background-color: #E87132;
             padding: 6px;
@@ -474,6 +484,7 @@ main.img__fila {
     .mobilePicture {
         object-fit: cover;
         height: 100vh;
+        
     }
 }
 

@@ -48,6 +48,12 @@ h2 {
   font-size: 1.5rem;
   margin-left: 20px; }
 
+.titleh2 {
+  font-family: letra;
+  font-size: 3rem;
+  margin-left: 20px;
+  background-color: #E87132; }
+
 h3 {
   font-family: letra;
   font-size: 1.5rem;
@@ -145,7 +151,7 @@ main.img__fila {
     transition: all .3s;
     transform: scale(1.5);
     opacity: 0; }
-    .c-img .txtHover h2 {
+    .c-img .txtHover h3 {
       color: wheat;
       padding-top: 80px; }
   .c-img:hover .txtHover {
@@ -179,7 +185,7 @@ main.img__fila {
     transition: all .0s;
     right: 5%;
     top: 20%; }
-    .inicio .picture h2 {
+    .inicio .picture h3 {
       color: black;
       background-color: #E87132;
       padding: 6px; }
